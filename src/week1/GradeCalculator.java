@@ -1,6 +1,6 @@
 package week1;
 
-import javax.sound.midi.Soundbank;
+
 import java.util.Scanner;
 
 public class GradeCalculator {
@@ -19,13 +19,13 @@ public class GradeCalculator {
 
         scanner.close();
 
-        Double midtermPart1 = midtermGrade1 * 0.2 ;
+        double midtermPart1 = midtermGrade1 * 0.2 ;
 
-        Double midtermPart2 = midtermGrade2 * 0.2 ;
+        double midtermPart2 = midtermGrade2 * 0.2 ;
 
-        Double finalPart = finalGrade * 0.6 ;
+        double finalPart = finalGrade * 0.6 ;
 
-        Double grade = midtermPart1 + midtermPart2 + finalPart ;
+        double grade = midtermPart1 + midtermPart2 + finalPart ;
 
         System.out.println("Your grade is " + grade);
 
