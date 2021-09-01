@@ -35,16 +35,12 @@ public class GradeCalculator {
             System.out.println("Your letter grade is F");
 
         }
-        else if (grade >= 50 && grade < 60) {
+        else if (grade >= 50 && grade < 70) {
 
             System.out.println("Your latter grade is D");
 
         }
-        else if (grade >= 60 && grade < 70) {
 
-            System.out.println("Your latter grade is c");
-
-        }
         else if (grade >= 70 && grade < 80) {
 
             System.out.println("Your letter grade is C");
