@@ -13,5 +13,8 @@ public class GradeCalculator {
 
         System.out.println("Please enter midterm 2 grade.");
         int midtermGrade2 = scanner.nextInt();
+
+        System.out.println("Please enter final grade.");
+        int finalexam = scanner.nextInt();
     }
 }
