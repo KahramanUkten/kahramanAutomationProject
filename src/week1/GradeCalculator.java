@@ -15,6 +15,21 @@ public class GradeCalculator {
         int midtermGrade2 = scanner.nextInt();
 
         System.out.println("Please enter final grade.");
-        int finalexam = scanner.nextInt();
+        int finalGrade = scanner.nextInt();
+
+        scanner.close();
+
+        Double midtermPart1 = midtermGrade1 * 0.2 ;
+
+        Double midtermPart2 = midtermGrade2 * 0.2 ;
+
+        Double finalPart = finalGrade * 0.6 ;
+
+        Double grade = midtermPart1 + midtermPart2 + finalPart ;
+
+        System.out.println("Your grade is " + grade);
+
+
+
     }
 }
